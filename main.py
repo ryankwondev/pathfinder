@@ -69,32 +69,7 @@ def search_route(loc1: str, loc2: str):
                             heapq.heappush(q, (cost + c, v2, path))
             return float("inf")
 
-        # A*
-        def astar(graph, start, goal):
-
-            graph = defaultdict(list)
-            for start, end, weight in routes:
-                graph[start].append((weight, end))
-
-            def astar_search(graph, start, goal):
-                visited = set()
-                queue = []
-                heappush(queue, (0, start, [start]))
-                while queue:
-                    (cost, node, path) = heappop(queue)
-                    if node not in visited:
-                        visited.add(node)
-                        if node == goal:
-                            return cost, path
-                        for weight, neighbour in graph[node]:
-                            if neighbour not in visited:
-                                heappush(queue, (cost + weight, neighbour, path + [neighbour]))
-                return 0, []
-
-            return astar_search(graph, start, goal)
-
-        # return dijkstra(routes, loc1, loc2)
-        return astar(routes, loc1, loc2)
+        return dijkstra(routes, loc1, loc2)
 
 
 @app.delete("/edges/{edge_id}")
