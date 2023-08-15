@@ -16,4 +16,8 @@
 
 ## Frontend
 
+<img width="1728" alt="Screenshot 2023-08-15 at 9 15 53 AM" src="https://github.com/ryankwondev/pathfinder/assets/93381265/2028bab8-1701-4a9e-9ca4-2b40ae23fce5">
+
 ## Backend
+
+[https://api.path-finder.kro.kr/docs](https://api.path-finder.kro.kr/docs)
