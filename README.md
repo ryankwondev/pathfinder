@@ -16,6 +16,8 @@
 
 ## Frontend
 
+![image](https://github.com/ryankwondev/pathfinder/assets/93381265/67ea8354-84e0-4e48-91e5-441acfeed69f)
+
 <img width="1728" alt="Screenshot 2023-08-15 at 9 15 53 AM" src="https://github.com/ryankwondev/pathfinder/assets/93381265/2028bab8-1701-4a9e-9ca4-2b40ae23fce5">
 
 ## Backend
