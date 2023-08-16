@@ -9,7 +9,7 @@ import {
   LatLng,
 } from '@react-google-maps/api';
 
-const API_KEY = 'AIzaSyAX74zrg1SIZxe1y3gCZIP4PIW34MN8x_0';
+const API_KEY = 'SECRET,_TO_BE_REPLACED';
 
 const mapContainerStyle = {
   width: '100%',
